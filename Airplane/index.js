@@ -1,4 +1,5 @@
-//Add edge-case protection
+//TODO:
+//Add edge-case protection + error-handling
 
 const { readFileSync } = require("fs");
 
