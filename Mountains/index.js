@@ -13,12 +13,12 @@ function readFile(fileName) {
 }
 
 function formatCharArrays(stringArray) {
-    let cleanRows = [];
+    let charArrays = [];
 
     stringArray.forEach((row) => {
         let cleanRow = row.replace("\r", "");
         cleanRows.push(Array.from(cleanRow));
     });
 
-    return cleanRows;
+    return charArrays;
 }
