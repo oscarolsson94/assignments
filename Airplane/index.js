@@ -1,3 +1,5 @@
+//Add edge-case protection
+
 const { readFileSync } = require("fs");
 
 calculateCourse("./instructions.txt");
